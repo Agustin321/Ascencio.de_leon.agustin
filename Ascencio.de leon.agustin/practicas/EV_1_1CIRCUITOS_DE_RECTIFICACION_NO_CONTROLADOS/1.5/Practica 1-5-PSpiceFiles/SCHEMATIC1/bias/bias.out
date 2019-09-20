@@ -1,0 +1,359 @@
+
+**** 09/12/19 12:00:44 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\agus_\OneDrive\Escritorio\Practica 1\1.5\practica 1-5-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN 50u 60ms 0 50u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PRACTICA 1-5
+D_D1         N14673 N14735 Dbreak 
+D_D2         N14673 N14739 Dbreak 
+D_D3         N14739 N14706 Dbreak 
+D_D4         N14735 N14706 Dbreak 
+C_Cf         N14706 N14673 1mF
+R_Rcarga         N14673 N14706  10 TC=0,0 
+R_R2         N14673 0  10meg TC=0,0 
+L_Lr         N15798 N14735  1mH  
+R_Rcarga1         N16437 N16459  10 TC=0,0 
+D_D5         N16437 N16481 Dbreak 
+D_D6         N16437 N14739 Dbreak 
+D_D7         N14739 N16459 Dbreak 
+D_D8         N16481 N16459 Dbreak 
+L_Lr1         N16563 N16481  1mH  
+C_Cf1         N16459 N16437 1mF
+R_R3         N16437 0  10meg TC=0,0 
+D_D12         N17056 N17034 Dbreak 
+R_R4         N17012 0  10meg TC=0,0 
+L_Lr2         N17138 N17056  1mH  
+C_Cf2         N17034 N17012 1mF
+D_D10         N17012 N14739 Dbreak 
+R_Rcarga2         N17012 N17034  10 TC=0,0 
+D_D11         N14739 N17034 Dbreak 
+D_D9         N17012 N17056 Dbreak 
+V_V1         N17138 0  AC 0
++SIN 0 311v 50Hz 0 0 0
+V_V2         N15798 0  AC 0
++SIN 0 311v 50Hz 0 0 0
+V_V3         N16563 0  AC 0
++SIN 0 311v 50Hz 0 0 0
+R_R5         0 N14739 Rbreak 1m
+
+**** RESUMING bias.cir ****
+.END
+
+**** 09/12/19 12:00:44 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\agus_\OneDrive\Escritorio\Practica 1\1.5\practica 1-5-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Dbreak          
+          IS   10.000000E-15 
+          RS     .1          
+         CJO  100.000000E-15 
+
+
+**** 09/12/19 12:00:44 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\agus_\OneDrive\Escritorio\Practica 1\1.5\practica 1-5-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Rbreak          
+           R    1            
+
+
+**** 09/12/19 12:00:44 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\agus_\OneDrive\Escritorio\Practica 1\1.5\practica 1-5-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N14673)-53.41E-27 (N14706)-53.42E-27 (N14735)    0.0000 (N14739)    0.0000     
+
+(N15798)    0.0000 (N16437)-47.59E-27 (N16459)-47.59E-27 (N16481)    0.0000     
+
+(N16563)    0.0000 (N17012)-54.38E-27 (N17034)-54.39E-27 (N17056)    0.0000     
+
+(N17138)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    V_V2         0.000E+00
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+Reducing minimum delta to make the circuit converge.
+Reducing minimum delta to make the circuit converge.
+Reducing minimum delta to make the circuit converge.
+Reducing minimum delta to make the circuit converge.
+Reducing minimum delta to make the circuit converge.
+
+ERROR(ORPSIM-15138): Convergence problem in transient analysis at Time =  5.637E-03.
+         Time step =  439.7E-21, minimum allowable step size =  1.000E-18
+
+  These voltages failed to converge:
+
+    V(N14673)                 =  -385.61mV  \  -121.73mV
+    V(N14739)                 =    62.86mV  \   630.87nV
+    V(N16437)                 =   460.04mV  \  -121.27mV
+    V(N16459)                 =    370.82V  \    370.24V
+    V(N16481)                 =    305.38V  \    304.80V
+    V(N17056)                 =    307.82V  \    304.80V
+    V(N17034)                 =    373.27V  \    370.24V
+    V(N17012)                 =     2.903V  \  -122.12mV
+
+  These devices failed to converge:
+    D_D5      D_D8      D_D12     D_D9      
+
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N14673)    -.3856 (N14706)  369.9800 (N14735)  304.5300 (N14739)     .0629     
+
+(N15798)  304.8000 (N16437)     .4600 (N16459)  370.8200 (N16481)  305.3800     
+
+(N16563)  304.8000 (N17012)    2.9031 (N17034)  373.2600 (N17056)  307.8200     
+
+(N17138)  304.8000 
+
+
+**** Interrupt ****
+**** Param: RELTOL = 0.001
+**** Param: ABSTOL = 1e-012
+**** Param: VNTOL = 1e-006
+**** Param: GMIN = 1e-012
+**** Param: TSTOP = 0.06
+**** Param: TMAX = 5e-005
+**** Param: ITL1 = 150
+**** Param: ITL2 = 20
+**** Param: ITL4 = 10
+**** Param: AutoConverge = 0
+**** Param: AutoConverge.ITL1 = 1000
+**** Param: AutoConverge.ITL2 = 1000
+**** Param: AutoConverge.ITL4 = 1000
+**** Param: AutoConverge.RELTOL = 0.05
+**** Param: AutoConverge.ABSTOL = 0.001
+**** Param: AutoConverge.VNTOL = 0.001
+**** Param: AutoConverge.PIVTOL = 1e-010
+**** Param: ADVCONV = 1
+**** Param: Current_Simulation = 3
+**** Param: METHOD = 0
+**** Param: TRTOL = 7
+**** Param: STEPGMIN = 0
+**** Param: GMINSTEPS = 0
+**** Param: ITL6 = 0
+**** Param: NOSTEPDEP = 0
+**** Param: PTRANSTEP = 0
+**** Param: GMINSRC = 0
+**** Param: PSEUDOTRAN = 0
+**** Param: NOSTEPSRC = 0
+
+ERROR(ORPSIM-15138): Convergence problem in transient analysis at Time =  5.637E-03.
+         Time step =  439.7E-21, minimum allowable step size =  1.000E-18
+
+  These voltages failed to converge:
+
+    V(N14673)                 =  -385.61mV  \  -121.73mV
+    V(N14739)                 =    62.86mV  \   630.87nV
+    V(N16437)                 =   460.04mV  \  -121.27mV
+    V(N16459)                 =    370.82V  \    370.24V
+    V(N16481)                 =    305.38V  \    304.80V
+    V(N17056)                 =    307.82V  \    304.80V
+    V(N17034)                 =    373.27V  \    370.24V
+    V(N17012)                 =     2.903V  \  -122.12mV
+
+  These devices failed to converge:
+    D_D5      D_D8      D_D12     D_D9      
+
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N14673)    -.3856 (N14706)  369.9800 (N14735)  304.5300 (N14739)     .0629     
+
+(N15798)  304.8000 (N16437)     .4600 (N16459)  370.8200 (N16481)  305.3800     
+
+(N16563)  304.8000 (N17012)    2.9031 (N17034)  373.2600 (N17056)  307.8200     
+
+(N17138)  304.8000 
+
+
+**** Interrupt ****
+
+ERROR(ORPSIM-15138): Convergence problem in transient analysis at Time =  5.637E-03.
+         Time step =  439.7E-21, minimum allowable step size =  1.000E-18
+
+  These voltages failed to converge:
+
+    V(N14673)                 =  -385.61mV  \  -121.73mV
+    V(N14739)                 =    62.86mV  \   630.87nV
+    V(N16437)                 =   460.04mV  \  -121.27mV
+    V(N16459)                 =    370.82V  \    370.24V
+    V(N16481)                 =    305.38V  \    304.80V
+    V(N17056)                 =    307.82V  \    304.80V
+    V(N17034)                 =    373.27V  \    370.24V
+    V(N17012)                 =     2.903V  \  -122.12mV
+
+  These devices failed to converge:
+    D_D5      D_D8      D_D12     D_D9      
+
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N14673)    -.3856 (N14706)  369.9800 (N14735)  304.5300 (N14739)     .0629     
+
+(N15798)  304.8000 (N16437)     .4600 (N16459)  370.8200 (N16481)  305.3800     
+
+(N16563)  304.8000 (N17012)    2.9031 (N17034)  373.2600 (N17056)  307.8200     
+
+(N17138)  304.8000 
+
+
+**** Interrupt ****
+**** Param: RELTOL = 0.001
+**** Param: ABSTOL = 1e-012
+**** Param: VNTOL = 1e-006
+**** Param: GMIN = 1e-012
+**** Param: TSTOP = 0.06
+**** Param: TMAX = 5e-005
+**** Param: ITL1 = 150
+**** Param: ITL2 = 20
+**** Param: ITL4 = 10
+**** Param: AutoConverge = 0
+**** Param: AutoConverge.ITL1 = 1000
+**** Param: AutoConverge.ITL2 = 1000
+**** Param: AutoConverge.ITL4 = 1000
+**** Param: AutoConverge.RELTOL = 0.05
+**** Param: AutoConverge.ABSTOL = 0.001
+**** Param: AutoConverge.VNTOL = 0.001
+**** Param: AutoConverge.PIVTOL = 1e-010
+**** Param: ADVCONV = 1
+**** Param: Current_Simulation = 3
+**** Param: METHOD = 0
+**** Param: TRTOL = 7
+**** Param: STEPGMIN = 0
+**** Param: GMINSTEPS = 0
+**** Param: ITL6 = 0
+**** Param: NOSTEPDEP = 0
+**** Param: PTRANSTEP = 0
+**** Param: GMINSRC = 0
+**** Param: PSEUDOTRAN = 0
+**** Param: NOSTEPSRC = 0
+
+ERROR(ORPSIM-15138): Convergence problem in transient analysis at Time =  5.637E-03.
+         Time step =  439.7E-21, minimum allowable step size =  1.000E-18
+
+  These voltages failed to converge:
+
+    V(N14673)                 =  -385.61mV  \  -121.73mV
+    V(N14739)                 =    62.86mV  \   630.87nV
+    V(N16437)                 =   460.04mV  \  -121.27mV
+    V(N16459)                 =    370.82V  \    370.24V
+    V(N16481)                 =    305.38V  \    304.80V
+    V(N17056)                 =    307.82V  \    304.80V
+    V(N17034)                 =    373.27V  \    370.24V
+    V(N17012)                 =     2.903V  \  -122.12mV
+
+  These devices failed to converge:
+    D_D5      D_D8      D_D12     D_D9      
+
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N14673)    -.3856 (N14706)  369.9800 (N14735)  304.5300 (N14739)     .0629     
+
+(N15798)  304.8000 (N16437)     .4600 (N16459)  370.8200 (N16481)  305.3800     
+
+(N16563)  304.8000 (N17012)    2.9031 (N17034)  373.2600 (N17056)  307.8200     
+
+(N17138)  304.8000 
+
+
+**** Interrupt ****
+
+          JOB ABORTED
+
+**** 09/12/19 12:00:44 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\agus_\OneDrive\Escritorio\Practica 1\1.5\practica 1-5-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =     1571.64
+

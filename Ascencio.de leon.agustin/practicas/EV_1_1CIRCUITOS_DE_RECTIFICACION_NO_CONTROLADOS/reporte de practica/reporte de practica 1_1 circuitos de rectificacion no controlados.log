@@ -1,0 +1,429 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.15)  19 SEP 2019 22:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"reporte de practica 1_1 circuitos de rectificacion no controlados.tex"
+(./reporte de practica 1_1 circuitos de rectificacion no controlados.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count88
+)
+\es@quottoks=\toks14
+\es@quotdepth=\count89
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks17
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(./reporte de practica 1_1 circuitos de rectificacion no controlados.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
+\openout1 = `"reporte de practica 1_1 circuitos de rectificacion no controlados
+.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen115
+\scratchbox=\box28
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen116
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+<imagenes1/1.png, id=1, 182.6825pt x 221.82875pt>
+File: imagenes1/1.png Graphic file (type png)
+<use imagenes1/1.png>
+Package pdftex.def Info: imagenes1/1.png  used on input line 31.
+(pdftex.def)             Requested size: 73.07169pt x 88.72992pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imagenes1/1.png>]
+<imagenes1/2.png, id=12, 843.15pt x 295.1025pt>
+File: imagenes1/2.png Graphic file (type png)
+<use imagenes1/2.png>
+Package pdftex.def Info: imagenes1/2.png  used on input line 40.
+(pdftex.def)             Requested size: 337.25401pt x 118.0389pt.
+<imagenes1/3.png, id=13, 1001.7425pt x 314.17375pt>
+File: imagenes1/3.png Graphic file (type png)
+<use imagenes1/3.png>
+Package pdftex.def Info: imagenes1/3.png  used on input line 47.
+(pdftex.def)             Requested size: 400.6899pt x 125.66727pt.
+
+Overfull \hbox (40.6899pt too wide) in paragraph at lines 47--48
+ [][] 
+ []
+
+<imagenes1/4.png, id=14, 999.735pt x 313.17pt>
+File: imagenes1/4.png Graphic file (type png)
+<use imagenes1/4.png>
+Package pdftex.def Info: imagenes1/4.png  used on input line 55.
+(pdftex.def)             Requested size: 399.88692pt x 125.26576pt.
+
+Overfull \hbox (39.88692pt too wide) in paragraph at lines 55--56
+ [][] 
+ []
+
+<imagenes1/5.png, id=15, 651.43375pt x 300.12125pt>
+File: imagenes1/5.png Graphic file (type png)
+<use imagenes1/5.png>
+Package pdftex.def Info: imagenes1/5.png  used on input line 64.
+(pdftex.def)             Requested size: 260.56888pt x 120.04637pt.
+[2 <./imagenes1/2.png> <./imagenes1/3.png> <./imagenes1/4.png>]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ± in font cmr10!
+<imagenes1/6.png, id=22, 1104.125pt x 316.18124pt>
+File: imagenes1/6.png Graphic file (type png)
+<use imagenes1/6.png>
+Package pdftex.def Info: imagenes1/6.png  used on input line 74.
+(pdftex.def)             Requested size: 165.6116pt x 47.42513pt.
+<imagenes1/7.png, id=23, 1049.9225pt x 302.12875pt>
+File: imagenes1/7.png Graphic file (type png)
+<use imagenes1/7.png>
+Package pdftex.def Info: imagenes1/7.png  used on input line 81.
+(pdftex.def)             Requested size: 524.95996pt x 151.064pt.
+
+Overfull \hbox (164.95996pt too wide) in paragraph at lines 81--82
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+[3 <./imagenes1/5.png> <./imagenes1/6.png> <./imagenes1/7.png>]
+<imagenes1/8.png, id=30, 473.77pt x 111.41624pt>
+File: imagenes1/8.png Graphic file (type png)
+<use imagenes1/8.png>
+Package pdftex.def Info: imagenes1/8.png  used on input line 89.
+(pdftex.def)             Requested size: 142.1321pt x 33.42513pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 94.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 94.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 94.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 112--115
+
+ []
+
+[4 <./imagenes1/8.png>]
+<imagenes1/9.png, id=43, 1104.125pt x 314.17375pt>
+File: imagenes1/9.png Graphic file (type png)
+<use imagenes1/9.png>
+Package pdftex.def Info: imagenes1/9.png  used on input line 122.
+(pdftex.def)             Requested size: 441.64218pt x 125.66727pt.
+
+Overfull \hbox (81.64218pt too wide) in paragraph at lines 122--123
+ [][] 
+ []
+
+<imagenes1/10.png, id=44, 398.48875pt x 172.645pt>
+File: imagenes1/10.png Graphic file (type png)
+<use imagenes1/10.png>
+Package pdftex.def Info: imagenes1/10.png  used on input line 130.
+(pdftex.def)             Requested size: 199.24388pt x 86.32228pt.
+<imagenes1/11.png, id=45, 458.71375pt x 226.8475pt>
+File: imagenes1/11.png Graphic file (type png)
+<use imagenes1/11.png>
+Package pdftex.def Info: imagenes1/11.png  used on input line 140.
+(pdftex.def)             Requested size: 229.35631pt x 113.42346pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imagenes1/12.png, id=46, 422.57875pt x 287.0725pt>
+File: imagenes1/12.png Graphic file (type png)
+<use imagenes1/12.png>
+Package pdftex.def Info: imagenes1/12.png  used on input line 147.
+(pdftex.def)             Requested size: 211.28885pt x 143.53589pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./imagenes1/9.png> <./imagenes1/10.png>]
+<imagenes1/13.png, id=52, 603.25375pt x 327.2225pt>
+File: imagenes1/13.png Graphic file (type png)
+<use imagenes1/13.png>
+Package pdftex.def Info: imagenes1/13.png  used on input line 156.
+(pdftex.def)             Requested size: 361.95503pt x 196.335pt.
+
+Overfull \hbox (1.95503pt too wide) in paragraph at lines 156--157
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ± in font cmr10!
+<imagenes1/14.png, id=53, 385.44pt x 156.585pt>
+File: imagenes1/14.png Graphic file (type png)
+<use imagenes1/14.png>
+Package pdftex.def Info: imagenes1/14.png  used on input line 173.
+(pdftex.def)             Requested size: 192.71953pt x 78.2923pt.
+[6 <./imagenes1/11.png> <./imagenes1/12.png>]
+<imagenes1/15.png, id=59, 1004.75375pt x 320.19624pt>
+File: imagenes1/15.png Graphic file (type png)
+<use imagenes1/15.png>
+Package pdftex.def Info: imagenes1/15.png  used on input line 182.
+(pdftex.def)             Requested size: 301.42845pt x 96.0596pt.
+ [7 <./imagenes1/13.png> <./imagenes1/14.png> <./imagenes1/15.png>]
+<imagenes1/16.png, id=67, 997.7275pt x 315.1775pt>
+File: imagenes1/16.png Graphic file (type png)
+<use imagenes1/16.png>
+Package pdftex.def Info: imagenes1/16.png  used on input line 191.
+(pdftex.def)             Requested size: 299.32056pt x 94.55397pt.
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ± in font cmr10!
+ [8 <./imagenes1/16.png>]
+(./reporte de practica 1_1 circuitos de rectificacion no controlados.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+) ) 
+Here is how much of TeX's memory you used:
+ 3356 strings out of 492982
+ 45200 string characters out of 6134896
+ 112179 words of memory out of 5000000
+ 6849 multiletter control sequences out of 15000+600000
+ 10646 words of font info for 41 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,12n,30p,530b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/lat
+xfont/line10.pfb>
+Output written on "reporte de practica 1_1 circuitos de rectificacion no contro
+lados.pdf" (8 pages, 1134263 bytes).
+PDF statistics:
+ 108 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+

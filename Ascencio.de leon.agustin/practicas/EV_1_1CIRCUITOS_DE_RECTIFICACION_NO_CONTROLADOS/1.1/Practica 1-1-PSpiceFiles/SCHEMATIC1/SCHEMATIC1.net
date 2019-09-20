@@ -1,0 +1,6 @@
+* source PRACTICA 1-1
+V_V1         N14373 0  
++SIN 0 311 50 0 0 0
+D_D1         N14373 N14409 Dbreak 
+L_L1         N14409 N14438  10mH  
+R_R1         0 N14438  10 TC=0,0 

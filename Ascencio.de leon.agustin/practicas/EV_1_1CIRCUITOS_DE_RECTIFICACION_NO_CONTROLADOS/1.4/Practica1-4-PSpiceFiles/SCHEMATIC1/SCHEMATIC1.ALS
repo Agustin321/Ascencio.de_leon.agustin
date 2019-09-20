@@ -1,0 +1,11 @@
+.ALIASES
+V_V1            V1(+=N15504 -=OUT/2 ) CN @PRACTICA1-4.SCHEMATIC1(sch_1):INS14311@SOURCE.VSIN.Normal(chips)
+L_Lr            Lr(1=N15504 2=N14595 ) CN @PRACTICA1-4.SCHEMATIC1(sch_1):INS14348@ANALOG.L.Normal(chips)
+D_D1            D1(1=N14595 2=OUT ) CN @PRACTICA1-4.SCHEMATIC1(sch_1):INS14373@BREAKOUT.Dbreak.Normal(chips)
+D_D2            D2(1=0 2=N14595 ) CN @PRACTICA1-4.SCHEMATIC1(sch_1):INS14389@BREAKOUT.Dbreak.Normal(chips)
+C_C1            C1(1=OUT 2=OUT/2 ) CN @PRACTICA1-4.SCHEMATIC1(sch_1):INS14426@DEVICE.C.Normal(chips)
+C_C2            C2(1=OUT/2 2=0 ) CN @PRACTICA1-4.SCHEMATIC1(sch_1):INS14442@DEVICE.C.Normal(chips)
+R_Rcarga          Rcarga(1=0 2=OUT ) CN @PRACTICA1-4.SCHEMATIC1(sch_1):INS14492@ANALOG.R.Normal(chips)
+_    _(out=OUT)
+_    _(out/2=OUT/2)
+.ENDALIASES

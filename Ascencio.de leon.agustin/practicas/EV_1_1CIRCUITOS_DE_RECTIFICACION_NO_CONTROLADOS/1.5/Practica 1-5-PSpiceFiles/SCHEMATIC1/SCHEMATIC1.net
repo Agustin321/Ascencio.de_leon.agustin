@@ -1,0 +1,32 @@
+* source PRACTICA 1-5
+D_D1         N14673 N14735 Dbreak 
+D_D2         N14673 N14739 Dbreak 
+D_D3         N14739 N14706 Dbreak 
+D_D4         N14735 N14706 Dbreak 
+C_Cf         N14706 N14673 1mF
+R_Rcarga         N14673 N14706  10 TC=0,0 
+R_R2         N14673 0  10meg TC=0,0 
+L_Lr         N15798 N14735  1mH  
+R_Rcarga1         N16437 N16459  10 TC=0,0 
+D_D5         N16437 N16481 Dbreak 
+D_D6         N16437 N14739 Dbreak 
+D_D7         N14739 N16459 Dbreak 
+D_D8         N16481 N16459 Dbreak 
+L_Lr1         N16563 N16481  1mH  
+C_Cf1         N16459 N16437 1mF
+R_R3         N16437 0  10meg TC=0,0 
+D_D12         N17056 N17034 Dbreak 
+R_R4         N17012 0  10meg TC=0,0 
+L_Lr2         N17138 N17056  1mH  
+C_Cf2         N17034 N17012 1mF
+D_D10         N17012 N14739 Dbreak 
+R_Rcarga2         N17012 N17034  10 TC=0,0 
+D_D11         N14739 N17034 Dbreak 
+D_D9         N17012 N17056 Dbreak 
+V_V1         N17138 0  AC 0
++SIN 0 311v 60Hz 0 0 0
+V_V2         N15798 0  AC 0
++SIN 0 311v 50Hz 0 0 0
+V_V3         N16563 0  AC 0
++SIN 0 311v 40Hz 0 0 0
+R_R5         0 N14739 Rbreak 1m

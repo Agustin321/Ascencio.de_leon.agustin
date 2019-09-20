@@ -1,0 +1,12 @@
+* source PRACTICA 1-3
+D_D1         0 N14597 Dbreak 
+D_D2         0 PCC2 Dbreak 
+D_D3         PCC2 OUT Dbreak 
+D_D4         N14597 OUT Dbreak 
+L_L1         N14611 PCC1  0.5mH  
+L_L2         PCC1 N14597  1mH  
+C_Cf         0 OUT  1mF  TC=0,0 
+R_Rcarga         0 OUT  {carga} TC=0,0 
+V_V1         N14611 PCC2  
++SIN 0 311 50Hz 0 0 0
+.PARAM  carga=10
